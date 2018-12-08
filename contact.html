@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estate buddy-Your perfect realtor</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="row" id="row1">
+		<div class="col-sm-6"><h2 id="nam" align="left">Estate Buddy</h2></div>
+		<div class="col-sm-1"><a href="index.html"><h4 id="nam1" align="center">Home</h4></a> </div>
+		<div class="col-sm-1"><a href="about.html"><h4 id="nam1" align="center">About</h4></a> </div>
+		<div class="col-sm-1"><a href="services.html"><h4 id="nam1" align="center">Services</h4></a> </div>
+		<div class="col-sm-1"><a href="properties.html"><h4 id="nam1" align="center">Properties</h4></a> </div>
+		<div class="col-sm-1"><a href="contact.html"><h4 id="nam1" align="center">Contact</h4></a> </div>
+	</div>
+	<div id="in-ban"></div>
+	<div id="lil-head"><pre><a href="index.html" >Home</a><span class="right">   |   </span>Contact</pre></div>
+	<h3 id="abt" align="center">Contact Us</h3>
+	<form action="contact.php" method="post" class="subscribe_form">
+	<div class="row">
+		<div class="col-sm-4" id="na1">
+			<input type="name" placeholder="Name" name="name" id="con1">
+		</div>
+		<div class="col-sm-4" id="na2">
+			<input type="email" placeholder="Email" name="email" id="con2">
+		</div>
+		<div class="col-sm-4">
+			<input type="subject" placeholder="Subject" name="subject" id="con3">
+		</div>
+	</div>
+	<br>
+	<div style="padding-left: 137px;">
+		<input type="comment" placeholder="Your comment here...." required="" name="comments" id="con4">
+	</div>
+	<br>
+	<div id="consub">
+		<button id="csub">SUBMIT</button>
+	</div>
+	</form>
+	<div class="subscribe-main section-w3layouts text-center">
+		<div class="subscribe-head">
+			<h1 class="sec-title" id="sub">Subscribe </h1>
+			<h2 id="sub1">TO MY NEWSLETTER</h2>
+			<h4 id="sub2">Get the free newsletter to keep up-to-date with my projects.</h4>
+			<div class="subscribe-form">
+				<form action="pro.php" method="post" class="subscribe_form">
+					<input type="name" placeholder="Name" name="name" required="">
+					<input type="email" placeholder="Email" name="email" required="">
+					<input type="submit" value="subscribe">
+				</form>
+			<p id="sub3">We respect your privacy. No spam ever!</p>
+		</div>
+	</div>
+</body>
+</html>

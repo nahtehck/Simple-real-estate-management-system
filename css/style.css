@@ -1,0 +1,156 @@
+#row1{
+	background: #212529;
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#nam{
+	font-family: monospace;
+}
+#nam1{
+	color: white;
+	padding-top: 15px;
+	font-family: monospace;
+}
+#con{
+	font-family: cursive;
+	padding-left: 10px
+	padding-top: 20px;
+	font: bold;
+}
+#tex{
+	font-family: cursive;
+	padding-right: 20px;
+	padding-top: 40px
+}
+.container2{
+	font-family: cursive;
+}
+#w3-ban1{
+	background: #48a0dc;
+	padding: 50px;
+	font-family: 'Exo 2', sans-serif;
+}
+#w3-ban2{
+	height: 200px;
+	padding-top: 30px;
+	font-family: 'Exo 2', sans-serif;
+}
+.w3-ban-pos{
+	text-align: center;
+}
+.news-w3row{
+	font-family: 'Exo 2', sans-serif;
+}
+#abt{
+	font-size: 50px;
+	color: #48a0dc;
+	padding: 50px;
+}
+#abt1{
+	text-align: left;
+	color: black;
+	font-size: 30px;
+}
+#abt2{
+	font-size: 20px;
+	text-align: left;
+}
+.col-lg-6{
+	padding: 10px;
+}
+#in-ban{
+	background: url(../images/ban11.jpg);
+	min-height: 200px;
+}
+#lil-head{
+	padding: 20px;
+	background: #f5f5f5;
+}
+#wwd{
+	text-align: center;
+}
+#mabt{
+	background: rgb(0,0,0);
+	color: white;
+	text-align: center;
+}
+#mabt1{
+	font-size: 50px;
+	padding-top: 50px;
+}
+#mabt2{
+	font-size: 25px;
+}
+.subscribe-main{
+	background: url(../images/sub2.jpg);
+	background-size: cover;
+	min-height: 300px;
+}
+#sub{
+	color: white;
+	padding-top: 30px;
+	font-size: 40px;
+}
+#sub1{
+	text-transform: uppercase;
+	font-weight: 600;
+    color: #fb6a19;
+    padding: 10px;
+}
+#sub2{
+	font-weight: 300;
+	color: white;
+	padding: 10px;
+}
+#sub3{
+	font-weight: 300;
+	color: white;
+	padding: 10px;
+} 
+#bro{
+	text-align: center;
+	font-style: bold;
+	font-weight: 400;
+}
+#ser{
+	text-align: center;
+	border: 1px solid gray;
+	height: 230px;
+	width: 450px;
+	background: #f5f5f5;
+}
+#prop,#prop1,#prop2{
+	display: inline-block;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+#na1{
+	padding-left: 150px;
+}
+#na2{
+	padding-left: 90px;
+}
+#con1,#con2,#con3{
+	border: 2px solid lightgray;
+	width: 365px;
+	height: 50px;
+	padding-left: 10px;
+}
+#con4{
+	border: 2px solid lightgray;
+	width: 1260px;
+	height: 60px;
+}
+#consub{
+	padding-left: 140px;
+
+}
+#csub{
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	color: white;
+	padding: 10px 50px;
+	background: #76daff;
+}
